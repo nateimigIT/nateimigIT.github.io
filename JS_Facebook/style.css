@@ -1,0 +1,28 @@
+body {
+	font-family: 'Oswald', sans-serif;
+  	color: #222;
+  	font-size: 32px;
+};
+
+.done {
+  text-decoration: line-through;
+}
+
+.delete {
+	float: left;
+	margin-right: 10px;
+}
+
+li {
+	list-style-type: none;
+
+}
+
+h1{
+	border-bottom: 20px solid red;
+}
+
+#userInput{
+	height: 25px;
+	width: 300px;
+}
