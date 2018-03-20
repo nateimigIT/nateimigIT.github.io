@@ -21,3 +21,7 @@ function setGredient(){
 color1.addEventListener("input", setGredient);
 color2.addEventListener("input", setGredient);
 
+//INIT:
+
+setGredient();
+
