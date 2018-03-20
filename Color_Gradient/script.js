@@ -11,6 +11,9 @@ function setGredient(){
 	+ ", " 
 	+ color2.value
 	+ ")";
+
+	//substitute for innerHTML
+	css.textContent = body.style.background + ";";
 };
 
 //do not call the functoin with the (), simply name the function
