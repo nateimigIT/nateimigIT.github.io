@@ -5,13 +5,13 @@ var body = document.getElementById("gradient");
 
 
 // set css styles
-function() setGredient{
+function setGredient(){
 	body.style.background = "linear-gradient(to right, " 
 	+ color1.value 
 	+ ", " 
 	+ color2.value
 	+ ")";
-}
+};
 
 //do not call the functoin with the (), simply name the function
 //to call when event is triggered
